@@ -1,0 +1,20 @@
+style{}
+
+        img{
+        height:100px;
+        float:left;
+        }
+        section{
+            display:flow-root;
+            border:2px solid rgb(255, 0, 132);
+        }
+        #mine{
+            float:right;
+            height:150px;
+
+        }
+        #star{
+            height:200px;
+        }
+    
+    

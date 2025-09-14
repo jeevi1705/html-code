@@ -1,0 +1,16 @@
+div{
+    img{height:300px;
+    float:left;
+}
+}
+section{
+    display:flow-root;
+    border:3px solid red;
+}
+#computer{
+        float:center;
+}
+#mine{
+    float:right;
+
+}

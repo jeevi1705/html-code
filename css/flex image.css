@@ -1,0 +1,34 @@
+*{
+    padding:0px;
+    background-color: rgb(159, 142, 14);
+}
+.data{
+    display: flex;
+    padding:0.9rem;
+    
+}
+    img{
+        margin-right:50px;
+        height:90px;
+        border:2px solid black;
+    }
+    .program li{
+        display:inline;
+        margin-right: 50px;
+        padding:13px;
+    }
+.computer{
+    display:flex; 
+}
+.datas li{
+     display:inline;
+        margin-right: 50px;
+        padding:10px;
+}
+.mine{
+    display:flex;
+}
+.mine img{
+    height:60px;
+    border:0px;
+}

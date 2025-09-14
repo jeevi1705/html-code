@@ -1,0 +1,21 @@
+body{
+    background-color:salmon;
+}
+.computer{
+    background-image: url(../photos/meesho.jpeg);
+    height: 300px;
+}
+.mine{background-color: azure;
+    background-image:url(../photos/nature.jpeg);
+    color: rgb(216, 30, 30);
+    height:400px;
+margin-top: 30px; 
+width:400px;
+}
+.web{
+    height:200px;
+    width:200px;
+    margin-left: 500px;
+    background-image:url(../photos/image.jpeg) ;
+}
+

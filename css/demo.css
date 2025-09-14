@@ -1,0 +1,25 @@
+body{
+    background-color:orange;
+     margin-left: 10px;
+}
+
+div{
+    background-color:purple;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-top:20px
+}
+
+.computer{background-color: aqua;
+    color:lawngreen ;
+    background-image: url(../photos/cakes.jpeg);
+}
+
+#mine{background-color: blue;
+    background-image:url(../photos/desert.jpeg);
+    color: blueviolet;
+    width:100px;
+    height: 100px;
+
+}

@@ -1,0 +1,83 @@
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: "a b c d";
+    grid-gap:5px 5px;
+    height:40px;
+    width:700px;
+    background-color: coral;
+    border:1px solid black;
+}
+li{
+    display:inline;
+    margin:0.6rem;
+    margin-left:50px;
+}
+li a{
+    text-decoration: solid;
+    color:black;
+}
+li a:hover{
+text-decoration: underline;
+color:blue;
+}
+header{
+    display:flex;
+    height:100px;
+    width:300px;
+}
+input{
+    margin-top: 20px;
+    padding:10px;
+}
+.mine{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows:100px 100px ;
+    grid-template-areas:"a b c d" ;
+    grid-gap:30px 30px;
+    height:500px;
+    width:1001px;
+    border: 2px solid rgb(233, 15, 15);
+    padding:0.7rem;
+
+}
+.data{
+    grid-area: a;
+    height:450px;
+    width:220px;
+    border:1px solid black;
+    padding:0.6rem;
+
+}
+.computer{
+    grid-area: b;
+    height:450px;
+    width:200px;
+    border:1px solid black;
+    padding:0.6rem;
+}
+.program{
+    grid-area: c;
+    height:450px;
+    width:220px;
+    border:1px solid black;
+    padding:0.6rem;
+}
+.footer{
+    grid-area: d;
+    height:450px;
+    width:200px;
+    border:1px solid black;
+    padding:0.6rem;
+}
+.item{
+    box-shadow:5px 5px 5px  palevioletred,8px 8px 8px rgb(209, 126, 209), 10px 10px 10px rgb(158, 65, 122);
+}
+
+a{
+    text-decoration: solid;
+padding:20px;
+}

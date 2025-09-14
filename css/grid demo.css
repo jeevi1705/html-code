@@ -1,0 +1,38 @@
+.mine{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr  ;
+    grid-template-rows:100px 100px ;
+    grid-template-areas:"a b d e"
+                        " a b d e"
+                        "c c d e";
+    grid-gap:15px 15px;
+    height:360px;
+    border:2px solid black;
+
+}
+.item{
+    background-color:chocolate;
+    padding:15px 15px;
+}
+.data{
+    grid-area: a;
+    border: 2px solid rgb(248, 55, 7);
+}
+.computer{
+    grid-area: b;
+     border: 2px solid rgb(248, 55, 7);
+}
+.program{
+    grid-area: c;
+     border: 2px solid rgb(248, 55, 7);
+
+}
+.html{
+    grid-area: d;
+     border: 2px solid rgb(248, 55, 7);
+
+}
+.java{
+    grid-area: e;
+     border: 2px solid rgb(248, 55, 7);
+}

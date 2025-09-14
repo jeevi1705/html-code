@@ -1,0 +1,35 @@
+
+.data {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr  ; 
+      grid-template-rows: 100px 100px ;
+      grid-template-areas:"a b d d"
+                            "a b d d"
+                            "c c d d";
+    
+      grid-gap: 20px 20px;               
+      height: 400px;                   
+      border: 2px solid black;         
+    }
+    .items {
+      padding: 20px;                   
+       background-color:aqua
+    }
+    .html {
+         grid-area:a;
+    }
+    .css {   
+       grid-area:b;  
+              
+    }
+    .java {
+      grid-area:c;
+
+                
+    }
+    .program {
+ 
+      grid-area:d;
+              
+    }
+    

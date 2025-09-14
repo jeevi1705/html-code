@@ -1,0 +1,33 @@
+ul{
+    background-color:olive;
+    text-align: left;
+    padding:0.9rem;
+    box-shadow:10px 10px 10px rgb(128, 1, 54) ;
+    height:150px;
+    margin top: 15px ;
+}
+li{
+
+    margin:0.7 rem;
+    display:flow-root;
+    text-align :center;
+    border:1px solid;
+
+}
+    img{
+    border:3px;
+    box-shadow:5px 5px 5px rgb(221, 107, 65), 10px 10px 10px rgb(172, 60, 106), 15px 15px 15px rgb(202, 202, 95);
+    float:left;
+}
+.mine{
+    background-color: black;
+    color: bisque;
+    text-align :center;
+}
+ol{
+    background-color:grey;
+box-shadow:10px 10px 10px rgb(128, 1, 54) ;
+}
+.com{
+    background-color:palevioletred
+}

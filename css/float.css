@@ -1,0 +1,14 @@
+
+style{}
+        img{
+            height:150px;
+            float:left;
+        }
+        section{
+        display:flow-root;
+            border:3px solid rgb(255, 0, 144);
+        }
+        #mine{
+            height:200px;
+        }   
+        

@@ -1,0 +1,36 @@
+body {
+    background-color: orange;
+
+}
+
+.computer {
+    background-color: white;
+    width: 120px;
+    height: 100px;
+    margin-top: 70px;
+}
+
+.css {
+    background-color: blue;
+    width: 120px;
+    height: 100px;
+    margin-left:430px;
+
+
+}
+
+
+#margin {
+    background-color: green;
+    width:120px;
+    height: 100px;
+    margin-left:670px;
+    margin-top: -100px;
+}
+
+#mine {
+    background-color: brown;
+    width: 120px;
+    height: 100px;
+    margin-bottom:10px;
+}

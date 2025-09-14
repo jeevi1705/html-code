@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+ul{
+    padding:0.9rem;
+    background-color:chocolate;
+    text-align: right;
+}
+li{
+    display: inline;
+    margin:0.8rem;
+}
+li a{
+    text-decoration: solid;
+    color: black;
+}
+li a:hover{
+    text-decoration:underline;
+    color: blue;
+}
+.program{
+    height:80px;
+    width:90px;
+    margin:7px;
+    background-color: rgb(255, 0, 106);
+    color:black;
+}

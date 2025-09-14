@@ -1,0 +1,39 @@
+.datas ul{
+    text-align: right;
+    background-color: coral;
+    padding:0.9rem;
+    width:600px;
+
+}
+.datas li{
+    display:inline;
+    margin:0.6rem;
+  margin-left: 80px;
+}
+header{
+    display: flex;
+}
+input{
+    padding:10px;
+    margin-top:17px ;
+}
+ .data{
+    
+    display:flex;
+    background-color: hotpink;
+    color: black;
+
+}
+.mine img{
+    height:70px;
+margin:25px;
+}
+.program{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 100px 100px;
+grid-template-areas: "a b c d";
+grid-gap:15px 15px;
+height:200px;
+
+}
